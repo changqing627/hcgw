@@ -1,0 +1,47 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+.indexNav{
+	width:1080px;
+	margin:0 auto;
+	padding-top:40px;
+	display:-webkit-flex;
+	display:flex;
+	
+}
+
+.navLogo{
+	height:26px;
+	width:160px;
+	/*border:1px solid red;*/
+}
+.navLogo img{
+	width:234px;
+	height:48px;
+}
+.navMiddle{
+	width:710px;
+	text-align: center;
+	/*border:1px solid red;*/
+}
+.navRig{
+	width:210px;
+	/*border:1px solid red;*/
+}
+
+/*第一屏*/
+.contain{
+	display:-webkit-flex;
+	display:flex;
+}
+.contain>div{
+	width:460px;
+}
+.contain .contBox{
+	width:1080px;
+	margin:0 auto;
+	border:1px solid red;
+}
+
