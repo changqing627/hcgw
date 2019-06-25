@@ -1,0 +1,13 @@
+<MKM version="2.0" imageFileUrl="file:///Users/feiwenjuan/Desktop/%E5%B7%A5%E4%BD%9C/%E6%85%A7%E5%9F%8E%E5%AE%98%E7%BD%91/%E6%85%A7%E5%9F%8E%E5%AE%98%E7%BD%9103%E7%89%88/01%EF%BC%8D1%E9%A6%96%E9%A1%B5-%E9%9A%90%E8%97%8F%E5%86%85%E5%AE%B9.psd">
+  <Marks>
+    <LengthMark direction="3" color="16711680" length="20" x="1463" y="50"/>
+    <LengthMark direction="12" color="16711680" length="200" x="1299" y="286"/>
+    <LengthMark direction="12" color="16711680" length="40" x="1299" y="128"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="1339" y="89" textMaxWidth="100" offsetX="63" offsetY="63" text="12px，＃333333"/>
+    <LengthMark direction="12" color="16711680" length="20" x="1479" y="91"/>
+    <LengthMark direction="3" color="16711680" length="20" x="1368" y="98"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="1487" y="261" textMaxWidth="260" offsetX="30" offsetY="9" text="圆角：6px；&#xD;投影：＃000000；不透明度12%；角度45；距离2px；扩展5%；大小8px"/>
+    <TextMark defaultDirection="9" direction="9" color="16711680" x="933" y="95" textMaxWidth="100" offsetX="25" offsetY="10" text="说明..."/>
+    <LengthMark direction="12" color="16711680" length="4" x="1466" y="617"/>
+  </Marks>
+</MKM>
