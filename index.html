@@ -5,180 +5,97 @@
 		<meta charset="utf-8" />
 		<title>ibangke</title>
 	</head>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
-	<link rel="stylesheet" type="text/css" href="css/common.css"/>
-	<style>
-		body,
-		div,
-		p {
-			margin: 0;
-			padding: 0;
-		}
-		
-		ul {
-			list-style: none;
-		}
-		
-		html {
-			overflow: hidden;
-		}
-		
-		body {
-			width: 100%;
-			*cursor: default;
-			overflow: hidden;
-			font: 16px/1.5 "Microsoft YaHei", Helvetica, STHeiti STXihei, Microsoft JhengHei, Arial;
-		}
-		
-		#pageContain {
-			overflow: hidden;
-		}
-		
-		.page {
-			display: none;
-			width: 100%;
-			height: 100%;
-			overflow: hidden;
-			position: absolute;
-			top: 150px;
-			left: 0;
-		}
-		
-		.contain {
-			width: 100%;
-			height: 100%;
-			display: none;
-			position: relative;
-			z-index: 0;
-		}
-		
-		.current .contain,
-		.slide .contain {
-			display: block;
-		}
-		
-		.current {
-			display: block;
-			z-index: 1;
-		}
-		
-		.slide {
-			display: block;
-			z-index: 2;
-		}
-		
-		.swipe {
-			display: block;
-			z-index: 3;
-			transition-duration: 0ms !important;
-			-webkit-transition-duration: 0ms !important;
-		}
-		
-		
-		#navBar {
-			z-index: 3;
-			position: absolute;
-			top: 30%;
-			right: 3%;
-		}
-		
-		#navBar .active {
-			background: #ccc;
-		}
-		
-		#navBar li {
-			cursor: pointer;
-			margin-bottom: 10px;
-			transition: all .7s ease;
-			border-radius: 50%;
-			line-height: 40px;
-			text-align: center;
-			width: 40px;
-			height: 40px;
-		}
-		
-		.txt {
-			margin-top: 20%;
-			font-size: 50px;
-			color: #fff;
-			text-align: center;
-		}
-	</style>
+	<link rel="stylesheet" href="css/jquery.fullPage.css"/>
+	<link rel="stylesheet" type="text/css" href="css/index.css"/>
+	
 
 	<body>
+		<!-- header -->
 		<div class="indexNav">
 			<div class="navLogo"><img src="img/logo.jpg"/></div>
 			<div class="navMiddle"><img src="img/middle.jpg"/></div>
 			<div class="navRig">
 				<select name="" class="fr">
 					<option value="">11</option>
+					<option value="">11</option>
+					<option value="">11</option>	
 				</select>
 			</div>
+
+			<!-- right -->
+			<div class="info">
+					<ul class="infobox">
+						<li class="infoList">
+							<p><img src="img/right/dianhua-s.png" alt=""></p>
+							<a href=""><img src="img/right/dianhua.png" alt=""></a>	
+						</li>
+						<li class="infoList">
+							<p><img src="img/right/shouji-s.png" alt=""></p>
+							<a href=""><img src="img/right/shouji.png"/></a>	
+						</li>
+						<li class="infoList">
+							<p><img src="img/right/youxiang-s.png" alt=""></p>
+							<a href=""><img src="img/right/youxiang.png"/></a>
+						</li>
+						<li class="infoList">
+						    <p><img src="img/right/weixin-s.png" alt=""></p>
+							<a href=""><img src="img/right/weixin.png"/></a>
+						</li>
+					</ul>
+				</div>
+
+
 		</div>
 		
-		<div id="pageContain">
-			<div class="page page1 current">
-				<div class="contain">
-					<div class="contBox">
-						<div class="conLeft">
-						<p class="contTxt">工业互联网+定制解决方案</p>
-						<div class="underBtn">了解详情</div>
-						<dov class="contImg"><img src="img/index1.jpg"/></dov>
+
+
+
+
+		<!-- content -->
+		<div id="dowebok">
+				<div class="section">
+					<div class="content">
+						<div class="contLeft">
+						   <div class="leftText">工业互联网+定制解决方案</div>
+						   <div class="contBtn ta"><a href="#" class="adesc">了解详情</a></div>
+						   <div class="leftImg"><img src="img/index1.jpg" class="wimg"></div>
+						</div>
+						<div class="contRight">
+							<div class="leftImg"><img src="img/index2.jpg"></div>
+							<div class="leftText">铁路装备垂直跨境营销平台</div>
+							<div class="contBtn ta"><a href="#" class="adesc">了解详情</a></div>
+						</div>
 					</div>
-					
-					<div class="conRig">
-						<p class="contTxt">铁路装备垂直跨境营销平台</p>
-					</div>
-					</div>
-					
-					
-					
 				</div>
+
+
+
+				<div class="section">
+					<h3>第二屏</h3>
+					<p>请查看右边的圆圈</p>
+				</div>
+				<div class="section">
+					<h3>第三屏</h3>
+					<p>圆圈还可以设置位置，颜色，加上 tip，点击可以控制</p>
+				</div>
+			
 			</div>
 
-			<div class="page page2">
-				<div class="contain">
-					<p class="txt">第二屏</p>
-				</div>
-			</div>
 
-			<div class="page page3">
-				<div class="contain">
-					<p class="txt">第三屏</p>
-				</div>
-			</div>
-
-		</div>
-
-		<ul id="navBar">
-			<li>1</li>
-			<li>2</li>
-			<li>3</li>
-		</ul>
 	</body>
     <script src="js/jquery-1.12.4.min.js"></script>
-	<script src="js/fullPage.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/index.js"></script>
 	<script>
-		//滑屏
-		var runPage;
-		runPage = new FullPage({
-			id: 'pageContain',
-			slideTime: 800,
-			effect: {
-				transform: {
-					translate: 'Y'
-				},
-				opacity: [0, 1]
-			},
-			mode: 'wheel, touch, nav:navBar',
-			easing: 'ease'
-		});
-		
-		
-		//JQ
 		$(function(){
+	$('#dowebok').fullpage({
+		sectionsColor: [],
+		'navigation': true,
+	});
 
-		})
+	
+});
+		
 	</script>
 
 </html>
