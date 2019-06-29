@@ -1,9 +1,12 @@
 $(function (){
     //right 悬浮
-    for(var i=0; i<$(".infoList").length; i++){
-        var current=$(".infoList")[i];
-        console.log(current)
-    }
+   $(".infobox").find('li').each(function (){
+       $(this).find('a').mouseover(function (){
+           $(this).prev('p').css({'opacity':1});
+       }).mouseout(function (){
+           $(this).prev('p').css({'opacity':0})
+       })
+   })
 
 
 
