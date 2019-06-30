@@ -1,47 +1,134 @@
-*{
-	margin:0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.indexNav{
-	width:1080px;
-	margin:0 auto;
-	padding-top:40px;
-	display:-webkit-flex;
-	display:flex;
-	
+ul {
+  list-style: none;
 }
-
-.navLogo{
-	height:26px;
-	width:160px;
-	/*border:1px solid red;*/
+.swm {
+  width: 1080px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
 }
-.navLogo img{
-	width:234px;
-	height:48px;
+.db {
+  display: block;
 }
-.navMiddle{
-	width:710px;
-	text-align: center;
-	/*border:1px solid red;*/
+.dib {
+  display: inline-block;
 }
-.navRig{
-	width:210px;
-	/*border:1px solid red;*/
+.dn {
+  display: none;
 }
-
-/*第一屏*/
-.contain{
-	display:-webkit-flex;
-	display:flex;
+.oh {
+  overflow: hidden;
 }
-.contain>div{
-	width:460px;
+.adesc {
+  text-decoration: none;
 }
-.contain .contBox{
-	width:1080px;
-	margin:0 auto;
-	border:1px solid red;
+.wimg {
+  width: 100%;
+  height: 100%;
 }
-
+.ta {
+  text-align: center;
+}
+.hdbox {
+  width: 1080px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fdbox {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+}
+.xfbox {
+  border: 1px solid red;
+  position: fixed;
+  z-index: 2;
+  right: 0px;
+  margin-top: 420px;
+  height: 200px;
+}
+.indexNav {
+  width: 1080px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 40px;
+  display: flex;
+  display: -webkit-flex;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  position: relative;
+  z-index: 1;
+}
+.indexNav .navLogo {
+  width: 234px;
+  height: 48px;
+}
+.indexNav .navLogo img {
+  width: 100%;
+  height: 100%;
+}
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 280px;
+  background: #333333;
+  color: #fff;
+}
+.footer .fotBox {
+  width: 1080px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  font-size: 14px;
+}
+.footer .fotBox .fotLeft {
+  line-height: 30px;
+}
+.footer .fotBox .fotRight .fotSao {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.footer .fotBox .fotRight .fotSao img {
+  vertical-align: middle;
+}
+.footer .footTxt {
+  width: 1080px;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  font-size: 12px;
+  color: #666666;
+}
+.suspend .info .infobox .infoList {
+  display: flex;
+  -webkit-display: -webkit-flex;
+  justify-content: flex-end;
+  -webkit-justify-content: -webkit-flex-start;
+}
+.suspend .info .infobox .infoList p {
+  opacity: 0;
+  transition: opacity .5s;
+  -webkit-transition: opacity 2s;
+}

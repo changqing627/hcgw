@@ -1,57 +1,5 @@
 @import "common.less";
 
-// header
-.indexNav{
-    height:50px;
-    width:100%;
-    margin-top:@mt40;
-    display:flex;
-    display:-webkit-flex;
-    -webkit-justify-content: space-between;
-    justify-content: space-between;
-    position:relative;
-    z-index:1;
-    .navLogo{
-        width:234px;
-        height:48px;
-        img{
-            width:100%;
-            height:100%;
-        }
-    }
-    
-}
-
-// right
-.suspend{
-    .swm;
-    position:fixed;
-    z-index:0;
-    margin-top:@mt40;
-
-.info{
-    // border:1px solid red;
-    margin-top:50%;
-    .infobox{
-        .infoList{
-            display:flex;
-            -webkit-display:-webkit-flex;
-            justify-content:flex-end;
-            -webkit-justify-content:-webkit-flex-start;
-            p{
-                // .dn;
-               
-                opacity:0;
-                transition:opacity .5s;
-                -webkit-transition:opacity 2s;
-            }
-           
-        }
-        
-    }
-}
-
-}
 // one content
 
 .content{
@@ -112,13 +60,59 @@
     margin-top:70px;
     font-size:20px;
     font-weight:bolder;
-    border:1px solid red;  
+     
     .twobot{
         ul{
             overflow:hidden;
             margin-top:40px;
             li{
                 float:left;
+            }
+        }
+       
+    }
+    .twoBtn{
+        margin-top:@mt40;
+        
+        a{
+            width:160px;
+            height:35px;
+            background:#0769ce;
+            color:#fff;
+            line-height:35px;
+            font-weight:normal;
+        }
+    } 
+}
+
+// third screen
+.thirdCont{
+    
+    .thirdBot{
+        margin-top:140px;
+        display:-webkit-flex;
+        display:flex;
+        justify-content: space-between;
+        .botLeft{
+
+            .thirdTit{
+                font-size:20px;
+                color:#0768ce;
+                font-weight:bolder;
+                margin-top:70px;
+            }
+            p{
+                line-height:35px;
+            }
+        }
+        .botRight{
+            width:300px;
+            height:340px;
+            overflow:hidden;
+            margin-right:140px;
+            img{
+                width:100%;
+                height:100%;
             }
         }
         
