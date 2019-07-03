@@ -49,14 +49,6 @@ ul {
   width: 100%;
   height: 280px;
 }
-.xfbox {
-  border: 1px solid red;
-  position: fixed;
-  z-index: 2;
-  right: 0px;
-  margin-top: 420px;
-  height: 200px;
-}
 .indexNav {
   width: 1080px;
   margin: auto;
@@ -121,14 +113,19 @@ ul {
   font-size: 12px;
   color: #666666;
 }
-.suspend .info .infobox .infoList {
-  display: flex;
-  -webkit-display: -webkit-flex;
-  justify-content: flex-end;
-  -webkit-justify-content: -webkit-flex-start;
+.xfbox {
+  position: fixed;
+  z-index: 2;
+  right: 0px;
+  margin-top: 420px;
+  height: 200px;
+  width: 200px;
 }
-.suspend .info .infobox .infoList p {
-  opacity: 0;
-  transition: opacity .5s;
-  -webkit-transition: opacity 2s;
+.suspend .info {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-end;
+}
+.suspend .info .infoCont li {
+  display: none;
 }

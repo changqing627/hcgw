@@ -12,27 +12,42 @@
 <body>
     <div class="suspend">
         <div class="info">
+				<ul class="infoCont">
+						<li><img src="./img/right/dianhua-s.png" alt=""></li>
+						<li style="margin-top:34px;"><img src="./img/right/shouji-s.png" alt=""></li>
+						<li style="margin-top:68px;"><img src="./img/right/youxiang-s.png" alt=""></li>
+						<li style="margin-top:102px;"><img src="./img/right/weixin-s.png" alt=""></li>
+					</ul>
 				<ul class="infobox">
 					<li class="infoList">
-						<p class="infoLife"><img src="./img/right/dianhua-s.png" alt=""></p>
 						<a href=""><img src="./img/right/dianhua.png" alt=""></a>	
 					</li>
 					<li class="infoList">
-						<p><img src="./img/right/shouji-s.png" alt=""></p>
 						<a href=""><img src="./img/right/shouji.png"/></a>	
 					</li>
 					<li class="infoList">
-						<p class="infoLife"><img src="./img/right/youxiang-s.png" alt=""></p>
 						<a href=""><img src="./img/right/youxiang.png"/></a>
 					</li>
 					<li class="infoList">
-						<p class="infoLife"><img src="./img/right/weixin-s.png" alt=""></p>
 						<a href=""><img src="./img/right/weixin.png"/></a>
 					</li>
 				</ul>
+				
 			</div>
         </div> 
 </body>
-<!-- <script src="js/jquery-1.12.4.min.js"></script>
-<script src="js/index.js"></script> -->
+ <script src="js/jquery-1.12.4.min.js"></script>
+<script>
+$(function (){
+
+	$(".infoList").mouseover (function (){
+		var index=$(this).index();
+		$(".infoCont li").eq(index).css('display','block');
+	}).mouseout(function (){
+		var index=$(this).index();
+		$(".infoCont li").eq(index).css('display','none');
+	})
+	
+})
+</script>
 </html>
