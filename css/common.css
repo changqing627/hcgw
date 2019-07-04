@@ -13,6 +13,15 @@ ul {
   left: 0;
   right: 0;
 }
+.df {
+  display: -webkit-flex;
+  display: flex;
+}
+.dfj {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
 .db {
   display: block;
 }
@@ -24,6 +33,9 @@ ul {
 }
 .oh {
   overflow: hidden;
+}
+.tc {
+  text-align: center;
 }
 .adesc {
   text-decoration: none;

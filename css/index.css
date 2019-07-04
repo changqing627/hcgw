@@ -13,6 +13,15 @@ ul {
   left: 0;
   right: 0;
 }
+.df {
+  display: -webkit-flex;
+  display: flex;
+}
+.dfj {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
 .db {
   display: block;
 }
@@ -25,6 +34,9 @@ ul {
 .oh {
   overflow: hidden;
 }
+.tc {
+  text-align: center;
+}
 .adesc {
   text-decoration: none;
 }
@@ -36,6 +48,7 @@ ul {
   text-align: center;
 }
 .content {
+  font-size: 12px;
   width: 1080px;
   margin: auto;
   top: 0;
@@ -45,10 +58,9 @@ ul {
 }
 .content .contBotten {
   margin-top: 150px;
+  display: -webkit-flex;
   display: flex;
-  -webkit-display: -webkit-flex;
   justify-content: flex-start;
-  -webkit-justify-content: -webkit-flex-start;
 }
 .content .contBotten .leftText {
   font-size: 20px;
@@ -133,4 +145,94 @@ ul {
 .thirdCont .thirdBot .botRight img {
   width: 100%;
   height: 100%;
+}
+.inTit .titTop {
+  font-size: 26px;
+  font-weight: bolder;
+}
+.inTit .titMiddle {
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 60px;
+}
+.inTit .titBottom {
+  font-size: 12px;
+  margin-top: 20px;
+}
+.indCont ul {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 50px;
+}
+.indCont ul li {
+  width: 270px;
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 20px;
+}
+.indCont ul li .line {
+  margin-top: 5px;
+}
+.indCont ul li a .indust_topTit {
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 20px;
+}
+.indCont ul li a .indust_bottomTit span {
+  font-size: 14px;
+  color: #8a9199;
+}
+.indCont ul li a .indust_bottomTit span img {
+  vertical-align: middle;
+  margin-right: 10px;
+}
+.railCont .railImg {
+  margin-top: 60px;
+}
+.railCont .railProc p {
+  margin-top: 80px;
+}
+.railCont .railProc img {
+  margin-top: 45px;
+}
+.railCont .railCase {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 40px;
+}
+.railCont .railCase li {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  width: 270px;
+  height: 60px;
+  line-height: 60px;
+}
+.railCont .railCase li a {
+  margin-left: 30px;
+}
+.railCont .railCase li a span {
+  font-size: 16px;
+  color: #8a9199;
+}
+.railCont .railCase li .line {
+  height: 60px;
+}
+.usaTit {
+  font-size: 16px;
+}
+.usaTit span {
+  color: #8b8f9a;
+}
+.usaCont {
+  margin-top: 45px;
+}
+.usaCont ul {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
 }

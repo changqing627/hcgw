@@ -13,6 +13,15 @@ ul {
   left: 0;
   right: 0;
 }
+.df {
+  display: -webkit-flex;
+  display: flex;
+}
+.dfj {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+}
 .db {
   display: block;
 }
@@ -25,6 +34,9 @@ ul {
 .oh {
   overflow: hidden;
 }
+.tc {
+  text-align: center;
+}
 .adesc {
   text-decoration: none;
 }
@@ -35,6 +47,9 @@ ul {
 .ta {
   text-align: center;
 }
+body {
+  font-size: 0;
+}
 .hdbox {
   width: 1080px;
   margin: auto;
@@ -42,12 +57,6 @@ ul {
   bottom: 0;
   left: 0;
   right: 0;
-}
-.fdbox {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  height: 280px;
 }
 .indexNav {
   width: 1080px;
@@ -72,11 +81,16 @@ ul {
   width: 100%;
   height: 100%;
 }
-.footer {
-  position: fixed;
+.fdbox {
+  font-size: 0;
+  background-size: cover;
+  position: relative;
   bottom: 0;
   width: 100%;
-  height: 280px;
+  height: 260px;
+}
+.footer {
+  font-size: 0;
   background: #333333;
   color: #fff;
 }
@@ -112,6 +126,7 @@ ul {
   right: 0;
   font-size: 12px;
   color: #666666;
+  padding-bottom: 1px;
 }
 .xfbox {
   position: fixed;

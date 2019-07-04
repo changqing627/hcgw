@@ -1,15 +1,13 @@
 @import "common.less";
 
+body{
+    font-size:0;
+}
 
 .hdbox{
     .swm;
 }
-.fdbox{
-    position:fixed;
-    bottom:0;
-    width:100%;
-    height:280px;   
-}
+
 
 // header
 .indexNav{
@@ -33,13 +31,17 @@
     
 }
 
-
-// footer
-.footer{
-    position:fixed;
+.fdbox{
+    font-size:0;
+    background-size:cover;
+    position:relative;
     bottom:0;
     width:100%;
-    height:280px;
+    height:260px;  
+}
+// footer
+.footer{
+    font-size:0;
     background:#333333;
     color:#fff;
     .fotBox{
@@ -66,6 +68,7 @@
         .swm;
         font-size:12px;
         color:#666666;
+        padding-bottom:1px;
     }
 }
 
