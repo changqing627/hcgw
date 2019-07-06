@@ -236,3 +236,207 @@ ul {
   justify-content: space-between;
   margin-top: 20px;
 }
+.margerTxt {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+}
+.mangCont .mangerTop {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 45px;
+}
+.mangCont .mangerTop .topTxt {
+  width: 660px;
+}
+.mangCont .mangerTop .topTxt p {
+  text-indent: 2em;
+}
+.mangCont .mangerTop .topMob img {
+  margin-top: 20px;
+  margin-left: 50px;
+}
+.mangCont .quer {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 68px;
+}
+.mangCont .quer .querLeft {
+  width: 420px;
+}
+.mangCont .quer .querLeft .querImg {
+  margin-left: -30px;
+  margin-top: 60px;
+}
+.mangCont .quer .querLeft .querTxt {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 30px;
+  text-indent: 2em;
+}
+.mangCont .check {
+  width: 655px;
+}
+.mangCont .check .checkTit {
+  margin-top: 60px;
+}
+.mangCont .check .checkTxt {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+  text-indent: 2em;
+  margin-top: 25px;
+}
+.mangCont .indBot {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+.mangCont .indBot li p {
+  margin-top: 25px;
+}
+.pillow {
+  margin-top: 45px;
+}
+.pillow .pilTxt {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+}
+.pillow .pilNum {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: center;
+  margin-top: 65px;
+}
+.pillow .pilNum li {
+  margin: 0 20px;
+}
+.pillow .pilNum li p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+}
+.pillow .pilSelect {
+  margin-top: 60px;
+}
+.pillow .pilSelect .selectTit {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+}
+.pillow .pilSelect .pilSelBox {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.pillow .pilSelect .pilSelBox li {
+  height: 327px;
+  line-height: 327px;
+}
+.pillow .pilSelect .pilSelBox li img {
+  vertical-align: middle;
+}
+.chengdu {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+.chengdu li {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+}
+.chengdu li p {
+  text-indent: 2em;
+}
+.djCont p {
+  margin-top: 45px;
+}
+.djCont div {
+  margin-top: 35px;
+}
+.control .contTxt {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+  margin-top: 45px;
+}
+.control .contTit {
+  margin-top: 60px;
+}
+.hclj .hcljTxt {
+  margin-top: 45px;
+}
+.hclj .hcljTxt p {
+  font-size: 14px;
+  color: #8a9199;
+  font-weight: bold;
+  line-height: 26px;
+}
+.hclj .hcljTit {
+  margin-top: 60px;
+}
+.aboutCont .aboutTit {
+  font-size: 26px;
+  font-weight: bolder;
+}
+.aboutCont .aboutTop {
+  margin-top: 45px;
+}
+.aboutCont .aboutTop ul {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px auto;
+}
+.aboutCont .aboutTop ul li {
+  width: 200px;
+  margin-left: 120px;
+  font-size: 16px;
+}
+.aboutCont .aboutTop ul li img {
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.aboutCont .aboutMidd {
+  margin-top: 70px;
+}
+.aboutCont .aboutMidd li {
+  font-size: 16px;
+  color: #8a9199;
+  margin-top: 20px;
+}
+.aboutCont .aboutMidd li img {
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.aboutCont .aboutBot {
+  display: -webkit-flex;
+  display: flex;
+  justify-content: flex-start;
+  width: 954px;
+  margin: 40px auto;
+}
+.aboutCont .aboutBot li {
+  width: 278px;
+  margin-left: 40px;
+}
