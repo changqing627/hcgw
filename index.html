@@ -10,7 +10,7 @@
 	<link rel="stylesheet" href="css/jquery.fullPage.css"/>
 	<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	<link rel="stylesheet" href="css/style.css"/>
-
+	
 	<body>
 		
 		<!-- right -->
@@ -27,30 +27,36 @@
 									<div class="navLogo"><img src="img/logo.jpg"/></div>
 									<div class="navMiddle"><img src="img/middle.jpg"/></div>
 									<div class="navRig">
-										<select name="" class="fr">
-											<option value="">11</option>
-											<option value="">11</option>
-											<option value="">11</option>	
-										</select>
+									
+										<div id="langBox">
+												Language:
+												<select id="lang">
+											
+													<option value="en">en</option>
+													
+													<option value="ch" selected>ch</option>
+												</select>
+											</div>
+										
 									</div>
 						
 								 </div>
-								 <div><a href="i18/i18.html">国际化</a></div>
+								
 								<!-- <embed src="header.html" style="width:100%;height:88px;"> -->
 								
 								<!-- content -->
 								<div class="contBotten">
 										<div class="contLeft">
-										   <div class="leftText">工业互联网+定制解决方案</div>
+										   <div class="leftText" id="index01">工业互联网+定制解决方案</div>
 										   <div class="contBtn ta">
-											   <a href="page/indus.html" target="_blank" class="adesc">了解详情</a>
+											   <a href="page/indus.html" target="_blank" class="adesc" id="index02">了解详情</a>
 											</div>
 										   <div class="leftImg"><img src="img/index1.jpg" class="wimg"></div>
 										</div>
 										<div class="contRight">
 											<div class="leftImg"><img src="img/index2.jpg"></div>
-											<div class="leftText">铁路装备垂直跨境营销平台</div>
-											<div class="contBtn ta"><a href="page/railway.html" target="_blank" class="adesc">了解详情</a></div>
+											<div class="leftText" id="index03">铁路装备垂直跨境营销平台</div>
+											<div class="contBtn ta"><a href="page/railway.html" target="_blank" class="adesc" id="index02">了解详情</a></div>
 										</div>
 									</div>
 
@@ -77,7 +83,7 @@
 							</div>
 							<!-- content -->
 							<div class="twoCont">
-								<div class="twoTit">关于我们</div>
+								<div class="twoTit" id="index04">关于我们</div>
 								<div class="twobot">
 									<ul class="twoTop">
 										<li>
@@ -97,7 +103,7 @@
 										</ul>
 								</div>
 								<div class="twoBtn">
-									<a href="./page/about.html" target="_blank" class="btnTxt adesc ta db">了解更多</a>
+									<a href="./page/about.html" target="_blank" class="btnTxt adesc ta db" id="index05">了解更多</a>
 								</div>
 							</div>
 										
@@ -129,12 +135,12 @@
 								
 								<div class="thirdBot">
 									<div class="botLeft">
-											<div class="thirdTit">联系我们</div>
-											<p style="margin-top:40px;">地址：北京市海淀区 学清路8号 科技财富中心B座3层B305室</p>
-											<p>研发部：北京市海淀区 羊坊店路 博望园10号 工信智创2005室</p>
-											<p style="margin-top:20px;">电话：010-82736260</p>
-											<p>手机：13707235546</p>
-											<p>邮箱：bk_lily@126.com</p>
+											<div class="thirdTit" id="index06">联系我们</div>
+											<p style="margin-top:40px;" id="index07">地址：北京市海淀区 学清路8号 科技财富中心B座3层B305室</p>
+											<p id="index08">研发部：北京市海淀区 羊坊店路 博望园10号 工信智创2005室</p>
+											<p style="margin-top:20px;" id="index09">电话：010-82736260</p>
+											<p id="index10">手机：13707235546</p>
+											<p id="index11">邮箱：bk_lily@126.com</p>
 									</div>
 									<div class="botRight"><img src="img/own.png"></div>
 									
@@ -150,7 +156,9 @@
 	</body>
     <script src="js/jquery-1.12.4.min.js"></script>
 	<script src="js/jquery.fullPage.min.js"></script>
+	<script src="js/jquery.i18n.properties.min.js"></script>
 	<script src="js/index.js"></script>
+	<script src="js/language.js"></script>
 	<script>
 	$(function(){
 		

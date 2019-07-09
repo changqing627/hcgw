@@ -82,6 +82,36 @@ body {
   width: 100%;
   height: 100%;
 }
+.indexNav .navRig {
+  text-align: right;
+}
+.indexNav .navRig .selShow .showArrow {
+  margin-left: 10px;
+}
+.indexNav .navRig .selBox {
+  width: 200px;
+  height: 200px;
+  position: fixed;
+  margin-left: -160px;
+  border-radius: 5px;
+  box-shadow: -5px 5px 10px #e3e3e5;
+  cursor: pointer;
+}
+.indexNav .navRig .selBox li {
+  height: 40px;
+  line-height: 40px;
+}
+.indexNav .navRig .selBox li .langCheck {
+  width: 32px;
+}
+.indexNav .navRig .selBox li .langTxt {
+  width: 112px;
+  text-align: left;
+}
+.indexNav .navRig .selBox li .langFlag {
+  width: 40px;
+  text-align: left;
+}
 .fdbox {
   font-size: 0;
   background-size: cover;
