@@ -22,6 +22,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.fontEm {
+  font-style: normal;
+}
 .db {
   display: block;
 }
@@ -47,6 +50,9 @@ ul {
 .ta {
   text-align: center;
 }
+.fontEm {
+  font-style: normal;
+}
 .content {
   font-size: 12px;
   width: 1080px;
@@ -67,7 +73,7 @@ ul {
   color: #333;
 }
 .content .contBotten .contBtn {
-  width: 100px;
+  width: 160px;
   height: 36px;
   line-height: 36px;
   background: #0768ce;
@@ -77,7 +83,7 @@ ul {
 .content .contBotten .contBtn a {
   color: #fff;
   display: inline-block;
-  width: 100px;
+  width: 160px;
   height: 36px;
 }
 .content .contBotten .leftImg {

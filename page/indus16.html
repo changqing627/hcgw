@@ -11,9 +11,21 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <embed src="../header.html" class="hdbox"/>
+        <!-- <embed src="../header.html" class="hdbox"/> -->
+        <div class="indexNav" style="margin-bottom:70px;">
+                <div class="navLogo"><img src="/img/logo.jpg"/></div>
+                <div class="navRig">
+                        <div id="langBox">
+                                Language:
+                                <select id="lang">
+                                    <option value="en">en</option>
+                                    <option value="ch" selected>ch</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
 
-        <div class="usaTit tc"><span>案例：</span>可视化应急指挥系统</div>
+        <div class="usaTit tc" id="indus49"><span>案例：</span>可视化应急指挥系统</div>
         <div class="seen tc">
             <img src="../img/industy/seen01.jpg"  style="margin-top:45px;"/>
             <img src="../img/industy/seen02.jpg" style="margin-top:50px;"/>
@@ -24,5 +36,7 @@
     <embed src="../footer.html" class="fdbox"/>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/language.js"></script>
 </html>

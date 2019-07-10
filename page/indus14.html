@@ -11,9 +11,21 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <embed src="../header.html" class="hdbox"/>
+        <!-- <embed src="../header.html" class="hdbox"/> -->
+        <div class="indexNav" style="margin-bottom:70px;">
+                <div class="navLogo"><img src="/img/logo.jpg"/></div>
+                <div class="navRig">
+                        <div id="langBox">
+                                Language:
+                                <select id="lang">
+                                    <option value="en">en</option>
+                                    <option value="ch" selected>ch</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
 
-        <div class="usaTit tc"><span>案例：</span>铁路设备在线看护系统</div>
+        <div class="usaTit tc" id="indus47"><span>案例：</span>货车列检作业客户端软件</div>
         <ul class="railWay">
             <li class="tc"><img src="../img/car/car01.jpg" /></li>
             <li class="tc"><img src="../img/car/car02.jpg" /></li>
@@ -60,5 +72,7 @@
     <embed src="../footer.html" class="fdbox"/>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/language.js"></script>
 </html>

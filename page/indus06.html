@@ -11,9 +11,21 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <embed src="../header.html" class="hdbox"/>
+        <!-- <embed src="../header.html" class="hdbox"/> -->
+        <div class="indexNav" style="margin-bottom:70px;">
+                <div class="navLogo"><img src="/img/logo.jpg"/></div>
+                <div class="navRig">
+                        <div id="langBox">
+                                Language:
+                                <select id="lang">
+                                    <option value="en">en</option>
+                                    <option value="ch" selected>ch</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
 
-        <div class="usaTit tc"><span>案例：</span>科技推广计划（EMIS手机端）</div>
+        <div class="usaTit tc" id="indus37"><span>案例：</span>科技推广计划（EMIS手机端）</div>
         <ul class="chengdu">
             <li style="margin-right:100px;">
                 <p>设备是企业进行生产活动的物质基础，是决定企业生产效能的重要因素之一。加强设备管理工作是企业发展的需要，更是完成各项生产任务的基本要求，对保证企业正常的生产秩序，提高企业生产效率，促进企业发展和进步具有重要的意义。</p>
@@ -30,5 +42,7 @@
     <embed src="../footer.html" class="fdbox" style="position:fixed; bottom:0;"/>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/language.js"></script>
 </html>

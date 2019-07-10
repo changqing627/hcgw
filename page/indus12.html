@@ -11,9 +11,21 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <embed src="../header.html" class="hdbox"/>
+        <!-- <embed src="../header.html" class="hdbox"/> -->
+        <div class="indexNav" style="margin-bottom:70px;">
+                <div class="navLogo"><img src="/img/logo.jpg"/></div>
+                <div class="navRig">
+                        <div id="langBox">
+                                Language:
+                                <select id="lang">
+                                    <option value="en">en</option>
+                                    <option value="ch" selected>ch</option>
+                                </select>
+                            </div>
+                    </div>
+                </div>
 
-        <div class="usaTit tc"><span>案例：</span>微控单车试验器（货车）客户端</div>
+        <div class="usaTit tc" id="indus43"><span>案例：</span>微控单车试验器（货车）客户端</div>
         <div class="control">
              <div class="contTxt">
                 微控单车试验器，主要适用于铁路车辆厂、段单车制动机综合性能试验。老式电控单车试验器，大多在电气结构设计中，采用了多个电磁阀与不同孔径的丝堵相组合，因受部件磨损等因素影响，会造成试验结果出现偏差。新型单车试验器具有模块化结构设计，维护、维修方便；采用UPS无间断电源，其工作运行安全可靠；该设备移动性好，易于操作使用；通过高频占空比电磁阀组合，使得内部气管路连接简化，并应用PWM控制技术与过程PID算法，可确保试验精度；试验项目及结果自动显示，且输出打印便捷。
@@ -54,5 +66,7 @@
     <embed src="../footer.html" class="fdbox"/>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/language.js"></script>
 </html>

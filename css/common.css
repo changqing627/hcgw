@@ -22,6 +22,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
+.fontEm {
+  font-style: normal;
+}
 .db {
   display: block;
 }
