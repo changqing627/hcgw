@@ -11,9 +11,9 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <embed src="../header.html" class="hdbox"/>
+            <div class="hdbox"></div>
 
-        <div class="usaTit tc"><span>案例：</span>美国斯凯孚</div>
+        <div class="usaTit tc" id="skf01"><span>案例：</span>美国斯凯孚</div>
         <div class="usaCont">
             <p><img src="../img/rail/usa01.jpg"></p>
             <ul>
@@ -24,8 +24,17 @@
         </div>
     </div>
       <div style="height:110px;"></div>  
-    <embed src="../footer.html" class="fdbox" style="font-size:0;"/>
+    <!-- <embed src="../footer.html" class="fdbox" style="font-size:0;"/> -->
+    <div class="fdbox"></div>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
+<script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
+<script src="../js/language.js"></script>
+<script>
+    $(function (){
+        $(".fdbox").load("../footer.html");
+        $(".hdbox").load("../header.html")
+    })
+    </script>
 </html>

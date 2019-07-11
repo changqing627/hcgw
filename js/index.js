@@ -17,7 +17,14 @@ $(function (){
         })
 
     }
-   
+
+    // alert($(".content").height())
+    var windW=$(window).height();
+    var contW=$(".content").height()+110+300;
+    
+   if(contW<windW){
+       $(".fdbox").css('marginTop',windW-contW+'px');
+   }
 
 
 

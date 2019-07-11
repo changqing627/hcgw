@@ -97,6 +97,11 @@ function updateExamples() {
     jQuery('#indus55').empty().append(jQuery.i18n.prop('indus55'));
     jQuery('#indus56').empty().append(jQuery.i18n.prop('indus56'));
     jQuery('#indus57').empty().append(jQuery.i18n.prop('indus57'));
+    // skf
+    jQuery('#skf01').empty().append(jQuery.i18n.prop('skf01'));
+    jQuery('#skf02').empty().append(jQuery.i18n.prop('skf02'));
+    jQuery('#skf03').empty().append(jQuery.i18n.prop('skf03'));
+    jQuery('#skf04').empty().append(jQuery.i18n.prop('skf04'));
     // 关于我们
     jQuery('#about01').empty().append(jQuery.i18n.prop('about01'));
     jQuery('#about02').empty().append(jQuery.i18n.prop('about02'));
@@ -110,19 +115,18 @@ function updateExamples() {
     jQuery('#about10').empty().append(jQuery.i18n.prop('about10'));
     jQuery('#about11').empty().append(jQuery.i18n.prop('about11'));
     jQuery('#about12').empty().append(jQuery.i18n.prop('about12'));
+    jQuery('#about13').empty().append(jQuery.i18n.prop('about13'));
+    jQuery('#about14').empty().append(jQuery.i18n.prop('about14'));
     // footer
-    // jQuery('#foot01').empty().append(jQuery.i18n.prop('foot01'));
-    // jQuery('#foot02').empty().append(jQuery.i18n.prop('foot02'));
-    // jQuery('#foot03').empty().append(jQuery.i18n.prop('foot03'));
-    // jQuery('#foot04').empty().append(jQuery.i18n.prop('foot04'));
-    // jQuery('#foot05').empty().append(jQuery.i18n.prop('foot05'));
-    // jQuery('#foot06').empty().append(jQuery.i18n.prop('foot06'));
-    // jQuery('#foot07').empty().append(jQuery.i18n.prop('foot07'));
-    // jQuery('#foot08').empty().append(jQuery.i18n.prop('foot08'));
-    // jQuery('#foot09').empty().append(jQuery.i18n.prop('foot09'));
-    // jQuery('#foot10').empty().append(jQuery.i18n.prop('foot10'));
-    // jQuery('#foot11').empty().append(jQuery.i18n.prop('foot11'));
-    // jQuery('#foot12').empty().append(jQuery.i18n.prop('foot12'));
+    jQuery('#foot01').empty().append(jQuery.i18n.prop('foot01'));
+    jQuery('#foot02').empty().append(jQuery.i18n.prop('foot02'));
+    jQuery('#foot03').empty().append(jQuery.i18n.prop('foot03'));
+    jQuery('#foot04').empty().append(jQuery.i18n.prop('foot04'));
+    jQuery('#foot05').empty().append(jQuery.i18n.prop('foot05'));
+    jQuery('#foot06').empty().append(jQuery.i18n.prop('foot06'));
+    jQuery('#foot07').empty().append(jQuery.i18n.prop('foot07'));
+    jQuery('#foot08').empty().append(jQuery.i18n.prop('foot08'));
+    jQuery('#foot09').empty().append(jQuery.i18n.prop('foot09'));
 
 
 }

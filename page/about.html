@@ -11,19 +11,7 @@
 <body>
     <embed src="../right.html" class="xfbox"/>
     <div class="content">
-        <!-- <embed src="../header.html" class="hdbox"/> -->
-        <div class="indexNav" style="margin-bottom:70px;">
-                <div class="navLogo"><a href="../index.html" target="_blank"><img src="/img/logo.jpg"/></a></div>
-                <div class="navRig">
-                        <div id="langBox">
-                                Language:
-                                <select id="lang">
-                                    <option value="en">en</option>
-                                    <option value="ch" selected>ch</option>
-                                </select>
-                            </div>
-                    </div>
-                </div>
+         <div class="hdbox"></div>
 
      <div class="aboutCont">
          <div class="aboutTit tc" id="about03">关于我们</div>
@@ -82,10 +70,17 @@
         
     </div>
       <div style="height:110px;"></div>  
-    <embed src="../footer.html" class="fdbox"/>
+    <!-- <embed src="../footer.html" class="fdbox"/> -->
+    <div class="fdbox"></div>
 </body>
 <script src="../js/jquery-1.12.4.min.js"></script>
 <script src="../js/jquery.i18n.properties.min.js"></script>
 <script src="../js/index.js"></script>
 <script src="../js/language.js"></script>
+<script>
+$(function (){
+    $(".fdbox").load("../footer.html");
+    $(".hdbox").load("../header.html")
+})
+</script>
 </html>

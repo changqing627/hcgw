@@ -13,19 +13,8 @@
     <embed src="../right.html" class="xfbox"/>
 
 <div class="content">
-   <!-- <embed src="../header.html" class="hdbox"/> -->
-   <div class="indexNav" style="margin-bottom:70px;">
-        <div class="navLogo"><a href="../index.html" target="_blank"><img src="/img/logo.jpg"/></a></div>
-        <div class="navRig">
-                <div id="langBox">
-                        Language:
-                        <select id="lang">
-                            <option value="en">en</option>
-                            <option value="ch" selected>ch</option>
-                        </select>
-                    </div>
-            </div>
-        </div>
+  
+        <div class="hdbox"></div>
 
    <!-- main content -->
     <div class="inTit tc">
@@ -81,9 +70,7 @@
 <div style="height:100px;"></div>
 </div>
 
- 
-<embed src="../footer.html" class="fdbox" style="font-size:0;"/>
-
+<div class="fdbox"></div>
        
         
 </body>
@@ -93,6 +80,9 @@
 <script src="../js/index.js"></script>
 <script src="../js/language.js"></script>
 <script>
-
+$(function (){
+        $(".fdbox").load("../footer.html");
+        $(".hdbox").load("../header.html")
+    })
 </script>
 </html>
