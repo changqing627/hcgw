@@ -13,10 +13,11 @@ $(function (){
         var $langLi=$(".selBox li");
         $langLi.click(function (){
             var flag=$(this).children('.flagImg');
-            alert(flag.attr('src'))
         })
 
     }
+
+    
 
     // alert($(".content").height())
     var windW=$(window).height();
@@ -25,6 +26,7 @@ $(function (){
    if(contW<windW){
        $(".fdbox").css('marginTop',windW-contW+'px');
    }
+
 
 
 

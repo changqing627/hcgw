@@ -33,5 +33,13 @@
 	<script src="/js/jquery.fullPage.min.js"></script>
 	<script src="/js/jquery.i18n.properties.min.js"></script>
 	<script src="/js/index.js"></script>
-	<script src="/js/language.js"></script>
+    <script src="/js/language.js"></script>
+    
+    <script>
+    $(function (){
+        $("#lang").find("option:selected").val(document.cookie.split("=")[1]);
+        // alert($("#lang").find("option:selected").val())
+        // alert($("#lang").find("option:selected").val())
+    })
+    </script>
 </html>

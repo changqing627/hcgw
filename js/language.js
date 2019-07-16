@@ -1,13 +1,20 @@
+
+
 jQuery(document).ready(function() {
     loadBundles('ch');
-    
-    // configure language combo box
     jQuery('#lang').change(function() {
         var selection = jQuery('#lang option:selected').val();
-        loadBundles(selection != 'browser' ? selection : null);
+        loadBundles(selection != 'browser' ? selection : null); 
+        document.cookie="lang="+selection;
+        
+        // alert(document.cookie.split("=")[1]);  
+        
     });
-
+    
 });
+
+
+
 
 function loadBundles(lang) {
     jQuery.i18n.properties({
@@ -130,3 +137,4 @@ function updateExamples() {
 
 
 }
+
