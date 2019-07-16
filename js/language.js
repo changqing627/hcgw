@@ -1,13 +1,12 @@
 
 
 jQuery(document).ready(function() {
-    loadBundles('ch');
+    // loadBundles('ch');
+    loadBundles(document.cookie.split("=")[1]);
     jQuery('#lang').change(function() {
         var selection = jQuery('#lang option:selected').val();
         loadBundles(selection != 'browser' ? selection : null); 
         document.cookie="lang="+selection;
-        
-        // alert(document.cookie.split("=")[1]);  
         
     });
     

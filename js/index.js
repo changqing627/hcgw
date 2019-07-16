@@ -28,6 +28,13 @@ $(function (){
    }
 
 
+//    国际化
+
+
+var seVal=document.cookie.split("=")[1];
+$("#lang").find("option[value="+seVal+"]").prop("selected",true);
+
+
 
 
 

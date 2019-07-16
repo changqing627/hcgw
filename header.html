@@ -9,14 +9,14 @@
 
 	<link rel="stylesheet" type="text/css" href="/css/style.css"/>
 <body>
-        <div class="indexNav">
-                <div class="navLogo"><img src="/img/logo.jpg"/></div>
-                <!-- <div class="navMiddle" style="display:none;"><img src="img/middle.jpg"/></div> -->
+        <div class="indexNav" style="margin-bottom:70px;">
+                <div class="navLogo"><a href="index.html"></a><img src="/img/logo.jpg"/></div>
+                
                 <div class="navRig">
                         <div id="langBox">
                                 Language:
                                 <select id="lang">
-                                    <option value="ch" selected>中文</option>
+                                    <option value="ch">中文</option>
 									<option value="en">English</option>
 									<option value="ru">русский язык</option>
 									<option value="es">Español</option>
@@ -31,15 +31,16 @@
 </body>
 <script src="/js/jquery-1.12.4.min.js"></script>
 	<script src="/js/jquery.fullPage.min.js"></script>
-	<script src="/js/jquery.i18n.properties.min.js"></script>
+    <script src="/js/jquery.i18n.properties.min.js"></script>
+    <script src="/js/jquery.cookie.js"></script>
 	<script src="/js/index.js"></script>
     <script src="/js/language.js"></script>
     
     <script>
-    $(function (){
-        $("#lang").find("option:selected").val(document.cookie.split("=")[1]);
-        // alert($("#lang").find("option:selected").val())
-        // alert($("#lang").find("option:selected").val())
+    $(function (){  
+        var seVal=document.cookie.split("=")[1];
+        $("#lang").find("option[value="+seVal+"]").prop("selected",true);
+      
     })
     </script>
 </html>
